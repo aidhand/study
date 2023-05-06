@@ -1,5 +1,7 @@
 import { Link } from "@remix-run/react";
 
+export const config = { runtime: "edge" };
+
 export default function App() {
   return (
     <div>
